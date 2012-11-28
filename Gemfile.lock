@@ -170,6 +170,7 @@ DEPENDENCIES
   devise
   faker (= 1.0.1)
   jquery-rails
+  kaminari (~> 0.13.0)
   meta_search (>= 1.1.0.pre)
   pg
   populator
@@ -178,4 +179,4 @@ DEPENDENCIES
   simple_form
   uglifier (>= 1.0.3)
   whenever
-  will_paginate (= 3.0.3)
+  will_paginate

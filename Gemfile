@@ -5,7 +5,6 @@ gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
 gem 'populator'
-gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem 'devise'
 gem 'simple_form'
@@ -13,6 +12,8 @@ gem 'pg'
 gem 'whenever', require: false
 gem 'activeadmin'
 gem "meta_search",    '>= 1.1.0.pre'
+gem "kaminari", "~> 0.13.0"
+gem "will_paginate"
 
 # Gems used only for assets and not required
 # in production environments by default.

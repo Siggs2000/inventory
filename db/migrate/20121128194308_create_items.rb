@@ -4,6 +4,7 @@ class CreateItems < ActiveRecord::Migration
       t.string :name
       t.integer :quantity
       t.string :sku
+      t.string :brand
 
       t.timestamps
     end

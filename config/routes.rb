@@ -4,6 +4,8 @@ Inventory2::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   
    root to: "admin/dashboard#index"
+   
+   break if ARGV.join.include? 'assets:precompile'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

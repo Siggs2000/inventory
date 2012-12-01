@@ -15,7 +15,7 @@ Inventory2::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -66,5 +66,5 @@ Inventory2::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
   
   # config.assets.precompile += ['active_admin.js', 'active_admin.css']
-  config.assets.precompile += %w( active_admin.css active_admin.js active_admin/print.css)
+  
 end

@@ -15,6 +15,12 @@ gem "meta_search",    '>= 1.1.0.pre'
 gem "kaminari", "~> 0.13.0"
 gem "will_paginate"
 gem 'sass-rails',   '~> 3.2.3'
+gem 'thin'
+gem 'heroku'
+
+group :production do
+  gem 'thin'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

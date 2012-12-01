@@ -10,7 +10,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'pg'
 gem 'whenever', require: false
-gem 'activeadmin'
+gem "activeadmin", :git => "git://github.com/gregbell/active_admin.git"
 gem "meta_search",    '>= 1.1.0.pre'
 gem "kaminari", "~> 0.13.0"
 gem "will_paginate"

@@ -17,6 +17,7 @@ gem "will_paginate"
 gem 'sass-rails',   '~> 3.2.3'
 gem 'thin'
 gem 'heroku'
+gem 'newrelic_rpm'
 
 group :production do
   gem 'thin'

@@ -18,7 +18,7 @@ ActiveAdmin.register_page "Dashboard" do
            panel "Newest Item Updates" do
              ul do
                Item.last(5).map do |item|
-                 li link_to(item.name, admin_item_path(item))
+                 li link_to(item.customer_style, admin_item_path(item))
                end
              end
            end

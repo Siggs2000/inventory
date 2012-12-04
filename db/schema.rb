@@ -47,12 +47,21 @@ ActiveRecord::Schema.define(:version => 20121128194308) do
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
   create_table "items", :force => true do |t|
-    t.string   "name"
-    t.integer  "quantity"
-    t.string   "sku"
-    t.string   "brand"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "code"
+    t.string   "po"
+    t.integer  "work_order"
+    t.string   "style"
+    t.string   "customer_style"
+    t.string   "color"
+    t.integer  "price"
+    t.integer  "inventory_sm"
+    t.integer  "inventory_md"
+    t.integer  "inventory_lg"
+    t.integer  "inventory_xl"
+    t.integer  "invetory_xxl"
+    t.integer  "shipped"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
 end
